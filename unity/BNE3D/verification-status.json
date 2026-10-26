@@ -6,14 +6,13 @@
   "editorPhysicsChecks": "passed: 270 spheres, 10801 steps, 3 simulated seconds",
   "shaderCompilation": "passed in WebGL build",
   "browserBuild": "produced and checked in Firefox: buried-intruder and cycle-mean WebGL build",
-  "published": false,
+  "published": true,
   "blocker": null,
   "browserSmokeCheck": "Firefox: default loads ready; head-on, play/pause, Space shortcut, completion, 610-grain preset application, live CoM chart and JSON download verified",
   "browserPerformance": "Quick and 610-grain beds prepare in approximately 0.10 / 0.19 seconds in Editor. Full samples remain slow, explicitly labelled; smaller samples are the default.",
   "browserInterface": "Native HTML sidebar; explicit Unity messages; keyboard capture disabled for browser forms",
   "browserPendingChecks": [
-    "Mobile touch interaction",
-    "Full-size browser performance"
+    "Mobile touch interaction"
   ],
   "verifiedDate": "2026-10-23",
   "paperPresetContainment": "passed: both 4070-sphere presets, 2 s settling + 10 s shaking + 0.5 s resting; zero escaped grains",
@@ -45,5 +44,10 @@
   "browserBehaviourCheck": "Firefox: driven intruder rose 4.88 mm; matched no-vibration control completed with intruder unchanged at 1.50 mm; cycle/raw toggle, JSON histories, correct preset and single-intruder fields verified",
   "siteIntegration": "Embedded in size-classification.html, replacing the previous 2D workbench; standalone full-window link retained",
   "publicModels": "Buried intruder and matched no-vibration control; custom intruder settings retained; paper and mixture presets removed from public controls",
-  "browserIntegrationCheck": "Firefox: embedded player renders 401-grain bed; menu contains intruder, control and custom only; no-vibration settings apply and run to Complete, intruder remains 1.50 mm"
+  "browserIntegrationCheck": "Firefox: embedded player renders 401-grain bed; menu contains intruder, control and custom only; no-vibration settings apply and run to Complete, intruder remains 1.50 mm",
+  "publishedDate": "2026-10-26",
+  "liveUrl": "https://drjoshuarasera.com/size-classification.html#bne",
+  "releaseCommit": "98635b07420ca2783dbc024067f461e50c77cf79",
+  "liveBrowserCheck": "Firefox, 2026-10-26: embedded 401-grain run completed 3 s shaking plus final rest; final large/small base-relative CoM 6.38 / 2.92 mm",
+  "deploymentReport": "validation/live-deployment.json"
 }

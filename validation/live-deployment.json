@@ -1,0 +1,236 @@
+{
+  "site": "https://drjoshuarasera.com/",
+  "releaseCommit": "98635b07420ca2783dbc024067f461e50c77cf79",
+  "checkedAt": "2026-10-26T15:43:27.452374+00:00",
+  "result": "passed",
+  "method": "HTTPS GET with SHA-256 equality against reviewed local files",
+  "files": [
+    {
+      "path": "mineral-enrichment.html",
+      "status": 200,
+      "bytes": 24405,
+      "sha256": "93cf8bcec99d8e48980694a3f55a8b576a56b354ed12b6ef5c9015e18cdadcdc"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7696,
+      "sha256": "a48d508572b2bd2b31148d493cfdd9de44ad82fc25d0223df439ef358cd6b870"
+    },
+    {
+      "path": "about.html",
+      "status": 200,
+      "bytes": 4016,
+      "sha256": "a0c9ea4d50b101fba17d8588ee1c24e77114addf31efc73b27cdc09e1e245bae"
+    },
+    {
+      "path": "strategic-engineering.html",
+      "status": 200,
+      "bytes": 13140,
+      "sha256": "235a9c5387edcfde633ca7bb2759c28be8b5e0b095eb75eaec811d14a5934459"
+    },
+    {
+      "path": "contact.html",
+      "status": 200,
+      "bytes": 6485,
+      "sha256": "b7ec99b4d06c6428089f639a1be140e0b8f5af39fca105d993e0376ed1ad4cb1"
+    },
+    {
+      "path": "research.html",
+      "status": 200,
+      "bytes": 6936,
+      "sha256": "8adf5b4275e3b8b4d79ec5b0cc353bdc194a92141c9598cf42075812bbca0155"
+    },
+    {
+      "path": "notes.html",
+      "status": 200,
+      "bytes": 3024,
+      "sha256": "11d70c117b7c755bb76fa10a286ce06c7acbd633f0aa9515b00a6e7aa9034424"
+    },
+    {
+      "path": "image-credits.html",
+      "status": 200,
+      "bytes": 4581,
+      "sha256": "ca3d9966606d30c9ca86deb0026d3adf420301315206659ec678110dffb64652"
+    },
+    {
+      "path": "size-classification.html",
+      "status": 200,
+      "bytes": 7294,
+      "sha256": "bd6c541f86ce0a5a2244f5314451b22c57d1d78e37041d6cd0346bdf7c37cdb5"
+    },
+    {
+      "path": "consulting.html",
+      "status": 200,
+      "bytes": 6439,
+      "sha256": "3c3c92683807bdf93c7dfbb71d9a252fed7b9931a955915017768169ee3361bf"
+    },
+    {
+      "path": "publications.html",
+      "status": 200,
+      "bytes": 4153,
+      "sha256": "10c7512bca9cb681c35594b61d802c02201a5ce117c24a4d164a13eabc4edb84"
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "bytes": 43394,
+      "sha256": "fb6d6e57dffe6bf6c0479ded16b17a35bf370efff0cb42e3cd2df8b9c52aa9cf"
+    },
+    {
+      "path": "favicon.svg",
+      "status": 200,
+      "bytes": 15242,
+      "sha256": "df418fae2817337591ffc7b994da4e8848f613f6a3beea8c6de71ba53a01a53a"
+    },
+    {
+      "path": "bne-embed.css",
+      "status": 200,
+      "bytes": 695,
+      "sha256": "98849bf829741b8b099bafec114ec3af615f3adcc24be9605f6fd077fe9a0efb"
+    },
+    {
+      "path": "bne-embed.js",
+      "status": 200,
+      "bytes": 571,
+      "sha256": "ea6c29c228dbc022f076dc05c6f672ca9ded38152574b9c0b28894cfbf565382"
+    },
+    {
+      "path": "value-chain-engine.js",
+      "status": 200,
+      "bytes": 3182,
+      "sha256": "d65869d6cd16128798d605b97dd4891dec9a40cc6fe9b72995fca207ac7e844b"
+    },
+    {
+      "path": "value-chain.css",
+      "status": 200,
+      "bytes": 6041,
+      "sha256": "c7686784c840a1a2989cdc0a9fb37746d35bd031c65d7e56a6135edea2dd7d1f"
+    },
+    {
+      "path": "strategic-engineering.js",
+      "status": 200,
+      "bytes": 6921,
+      "sha256": "a091b41b32930875a411b635a69d76b4f8cf13cc1b3d2f57155f86a79213140f"
+    },
+    {
+      "path": "applets/bne-3d/index.html",
+      "status": 200,
+      "bytes": 20631,
+      "sha256": "7c7ee5725b9e9b1cccdfb0ed06953738e8efd764fb56fdcf87bdeb897f9ee015"
+    },
+    {
+      "path": "assets/identity/wordmark.svg",
+      "status": 200,
+      "bytes": 113529,
+      "sha256": "a335332f6ffe8397e57b1871961dbcc78b2ccb6bb1bcb2d021ec00e05d457599"
+    },
+    {
+      "path": "assets/identity/monogram-light.svg",
+      "status": 200,
+      "bytes": 15209,
+      "sha256": "500fbe0a9b8ab792e78a1efef2d6ef1b7675a3a95df555402741539302978b94"
+    },
+    {
+      "path": "assets/identity/material-icon.svg",
+      "status": 200,
+      "bytes": 927,
+      "sha256": "c9f3e028ad27bc628a5c2676455f3cc592fee2ab83d5dea1fa89067bd7628063"
+    },
+    {
+      "path": "assets/identity/wordmark-light.svg",
+      "status": 200,
+      "bytes": 113529,
+      "sha256": "426e9fa1690afc234e88b1ca06e126861d467808265dc4314e7431d61c97976e"
+    },
+    {
+      "path": "assets/identity/monogram.svg",
+      "status": 200,
+      "bytes": 15209,
+      "sha256": "63eb8c5141ac61f56caa21a0c2eba397cb66970341c07435890027275a4f870a"
+    },
+    {
+      "path": "assets/identity/favicon.svg",
+      "status": 200,
+      "bytes": 15242,
+      "sha256": "df418fae2817337591ffc7b994da4e8848f613f6a3beea8c6de71ba53a01a53a"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-600.ttf",
+      "status": 200,
+      "bytes": 48732,
+      "sha256": "5e39a358a65a72b6b74b56b384bbe17a61d8899d33cc255d49112e6522e3df0d"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-400.ttf",
+      "status": 200,
+      "bytes": 48616,
+      "sha256": "01689ad055025ff1891607b077513c9389f73360d471dcffa036e326af179b00"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-500.ttf",
+      "status": 200,
+      "bytes": 48732,
+      "sha256": "a7bcb84cb01f6e33eecdd2cbff3f97ff1674c0e8e37c6921b6cd717b8c854d98"
+    },
+    {
+      "path": "assets/fonts/instrument-sans-700.ttf",
+      "status": 200,
+      "bytes": 48552,
+      "sha256": "d25efe5b0dcf3b36607d9a0fb046932547a5dfec407ea17162ca126d63b33d42"
+    },
+    {
+      "path": "assets/fonts/newsreader-500.ttf",
+      "status": 200,
+      "bytes": 111588,
+      "sha256": "68c4493c7c6c9aaff48defeeb6408e7ce705efc4c33363de4d9d6f5e07775064"
+    },
+    {
+      "path": "assets/fonts/newsreader-400-italic.ttf",
+      "status": 200,
+      "bytes": 119892,
+      "sha256": "a7a0a9114e29fbf6e83a339ed930d5d8ae69fe4217c34fdd95386d995929d6e8"
+    },
+    {
+      "path": "assets/fonts/newsreader-600.ttf",
+      "status": 200,
+      "bytes": 111628,
+      "sha256": "04188d5295f4e1100ce91a96b864f15b7af5be976e9fb9cc279af737be804272"
+    },
+    {
+      "path": "assets/fonts/newsreader-400.ttf",
+      "status": 200,
+      "bytes": 109472,
+      "sha256": "b8f5e0a8bdd6a12c722ca5635d9da87e77ccbb2d0172112e34e00c4e55f2cd5a"
+    },
+    {
+      "path": "applets/bne-3d/Build/bne-3d.data.unityweb",
+      "status": 200,
+      "bytes": 1013883,
+      "sha256": "d54a46cd824cb9883ff96a3a613dfa6a5b04db889396360c518b744daf364de0"
+    },
+    {
+      "path": "applets/bne-3d/Build/bne-3d.loader.js",
+      "status": 200,
+      "bytes": 47866,
+      "sha256": "6535d1b377af6c330c2b2d47fc6b876b580a4f770cf07576f5a9b4a85e16ef7e"
+    },
+    {
+      "path": "applets/bne-3d/Build/bne-3d.wasm.unityweb",
+      "status": 200,
+      "bytes": 4777206,
+      "sha256": "c868204aa375df742064b40da4fe5c3ad576bd117c867dc281892ba5f63e7399"
+    },
+    {
+      "path": "applets/bne-3d/Build/bne-3d.framework.js.unityweb",
+      "status": 200,
+      "bytes": 79906,
+      "sha256": "bcb2824b6f412a0184d3b0abd438f2fbcdce1e530a7c8bcc247fd85a9313f770"
+    }
+  ],
+  "browserChecks": {
+    "browser": "Firefox",
+    "segregation": "Embedded player loads, advances and completes; large/small CoM 6.38 / 2.92 mm at completion",
+    "dcf": "Live applet loads; switching Compact to Higher yield changes NPV from $23.6m to $24.4m and annual cash flow from $8.7m to $11.1m"
+  }
+}

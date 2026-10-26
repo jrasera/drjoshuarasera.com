@@ -48,3 +48,5 @@ The Unity API check compiles C# only. Runtime physics, shaders and browser check
 ## Publishing
 
 GitHub Pages publishes the root of `main` at **https://drjoshuarasera.com/**. Pushes to `main` trigger deployment. `CNAME` and `.nojekyll` are intentional. The Unity build uses gzip with decompression fallback, supporting static hosting without custom compression headers. Generated Unity caches, local builds, editor logs and OS metadata are excluded by `.gitignore`.
+
+Deployment verification for the 26 October 2026 release is recorded in `validation/live-deployment.json`: 37 HTTPS responses matched the reviewed files by SHA-256, and both current applets were checked in Firefox on the live domain.
