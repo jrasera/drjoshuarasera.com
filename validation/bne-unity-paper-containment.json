@@ -1,0 +1,116 @@
+{
+  "purpose": "Numerical containment and residual-motion regression, not scientific validation",
+  "baseline": {
+    "condition": 8,
+    "particles": 4070,
+    "steps": 2101,
+    "escaped": 6,
+    "dt": 0.0016666667070239782,
+    "minFloor": -52796.23828125,
+    "maxSide": 574.9310913085938,
+    "settledRms": 477.8443298339844,
+    "restRms": 915.4681396484375,
+    "maxSpeed": 32176.7578125,
+    "wallSeconds": 47.8212367,
+    "initial": {
+      "time": 0.0,
+      "large": 8.059050559997559,
+      "small": -1.9181638956069946,
+      "largeMassFraction": 0.3198387622833252,
+      "bedHeight": 16.64906120300293,
+      "aboveQuarter": 0.7428571581840515,
+      "aboveHalf": 0.48571428656578064,
+      "aboveThreeQuarters": 0.2142857164144516
+    },
+    "final": {
+      "time": 0.9999991059303284,
+      "large": 8.355259895324707,
+      "small": -36.14449691772461,
+      "largeMassFraction": 0.3198387622833252,
+      "bedHeight": 16.914398193359375,
+      "aboveQuarter": 0.7285714149475098,
+      "aboveHalf": 0.48571428656578064,
+      "aboveThreeQuarters": 0.2857142984867096
+    }
+  },
+  "correctedFullDurationRuns": [
+    {
+      "condition": 7,
+      "particles": 4070,
+      "steps": 44998,
+      "escaped": 0,
+      "dt": 0.00027777778450399637,
+      "minFloor": -0.03776554763317108,
+      "maxSide": 0.09806230664253235,
+      "settledRms": 3.227128744125366,
+      "restRms": 1.7668076753616333,
+      "maxSpeed": 1106.345458984375,
+      "endFloor": -4.351139068603516e-06,
+      "endSide": 0.009058207273483276,
+      "wallSeconds": 1008.4102274999999,
+      "initial": {
+        "time": 0.0,
+        "large": 10.907567024230957,
+        "small": 9.822636604309082,
+        "largeMassFraction": 0.31983885169029236,
+        "bedHeight": 21.31930923461914,
+        "aboveQuarter": 0.7714285850524902,
+        "aboveHalf": 0.5142857432365417,
+        "aboveThreeQuarters": 0.2857142984867096
+      },
+      "final": {
+        "time": 10.0,
+        "large": 10.725788116455078,
+        "small": 9.478156089782715,
+        "largeMassFraction": 0.31983885169029236,
+        "bedHeight": 20.571788787841797,
+        "aboveQuarter": 0.7714285850524902,
+        "aboveHalf": 0.5142857432365417,
+        "aboveThreeQuarters": 0.2857142984867096
+      }
+    },
+    {
+      "condition": 8,
+      "particles": 4070,
+      "steps": 44998,
+      "escaped": 0,
+      "dt": 0.00027777778450399637,
+      "minFloor": -0.03776554763317108,
+      "maxSide": 0.10125154256820679,
+      "settledRms": 3.2875921726226807,
+      "restRms": 1.983275055885315,
+      "maxSpeed": 1106.345458984375,
+      "endFloor": -1.7881393432617188e-07,
+      "endSide": 0.00909075140953064,
+      "wallSeconds": 796.2625269,
+      "initial": {
+        "time": 0.0,
+        "large": 10.905288696289062,
+        "small": 9.822842597961426,
+        "largeMassFraction": 0.31983885169029236,
+        "bedHeight": 21.36178970336914,
+        "aboveQuarter": 0.7714285850524902,
+        "aboveHalf": 0.5142857432365417,
+        "aboveThreeQuarters": 0.2857142984867096
+      },
+      "final": {
+        "time": 10.0,
+        "large": 13.439347267150879,
+        "small": 8.344399452209473,
+        "largeMassFraction": 0.31983885169029236,
+        "bedHeight": 21.50202751159668,
+        "aboveQuarter": 0.8428571224212646,
+        "aboveHalf": 0.699999988079071,
+        "aboveThreeQuarters": 0.4571428596973419
+      }
+    }
+  ],
+  "passed": true,
+  "limits": {
+    "maximumFloorPenetrationMm": 0.1,
+    "maximumSidePenetrationMm": 0.15,
+    "finalFloorPenetrationMm": 0.05,
+    "finalSidePenetrationMm": 0.05,
+    "restRmsMmPerSecond": 5
+  }
+}

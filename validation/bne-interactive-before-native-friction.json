@@ -1,0 +1,101 @@
+{
+  "runs": [
+    {
+      "preset": "quick",
+      "particles": 270,
+      "steps": 3259,
+      "generationSeconds": 0.0314064,
+      "readySeconds": 0.10708369999999999,
+      "totalSeconds": 3.0689805,
+      "dt": 0.0011111111380159855,
+      "minFloor": -0.0009718239307403564,
+      "maxSide": 0.009871572256088257,
+      "restRms": 2.4509494304656982,
+      "final": {
+        "time": 3.0,
+        "large": 1.9066009521484375,
+        "small": 0.48656681180000305,
+        "largeCom": 1.9231295585632324,
+        "smallCom": 0.5225664377212524,
+        "largeMassFraction": 0.6961365342140198,
+        "bedHeight": 4.066934108734131,
+        "aboveQuarter": 1.0,
+        "aboveHalf": 0.4000000059604645,
+        "aboveThreeQuarters": 0.0
+      }
+    },
+    {
+      "preset": "paper-preview",
+      "particles": 610,
+      "steps": 3259,
+      "generationSeconds": 0.0339617,
+      "readySeconds": 0.1962841,
+      "totalSeconds": 6.1280312,
+      "dt": 0.0011111111380159855,
+      "minFloor": -0.0003463327884674072,
+      "maxSide": 0.009864211082458496,
+      "restRms": 3.2322633266448975,
+      "final": {
+        "time": 3.0,
+        "large": 2.291398525238037,
+        "small": 1.1137011051177979,
+        "largeCom": 2.3213796615600586,
+        "smallCom": 1.1503055095672607,
+        "largeMassFraction": 0.32199689745903015,
+        "bedHeight": 3.9013452529907227,
+        "aboveQuarter": 1.0,
+        "aboveHalf": 0.800000011920929,
+        "aboveThreeQuarters": 0.0
+      }
+    },
+    {
+      "preset": "paper7",
+      "particles": 4070,
+      "steps": 9559,
+      "generationSeconds": 0.7845491,
+      "readySeconds": 3.8042186,
+      "totalSeconds": 238.2485961,
+      "dt": 0.0011111111380159855,
+      "minFloor": -0.0003947615623474121,
+      "maxSide": 0.010262250900268555,
+      "restRms": 5.00528621673584,
+      "final": {
+        "time": 10.0,
+        "large": 5.566463947296143,
+        "small": 5.007106781005859,
+        "largeCom": 5.6621928215026855,
+        "smallCom": 5.042465686798096,
+        "largeMassFraction": 0.3198387324810028,
+        "bedHeight": 13.478328704833984,
+        "aboveQuarter": 0.6428571343421936,
+        "aboveHalf": 0.37142857909202576,
+        "aboveThreeQuarters": 0.17142857611179352
+      }
+    },
+    {
+      "preset": "paper8",
+      "particles": 4070,
+      "steps": 9559,
+      "generationSeconds": 0.783311,
+      "readySeconds": 3.2670323999999997,
+      "totalSeconds": 354.9637394,
+      "dt": 0.0011111111380159855,
+      "minFloor": -0.0004377812147140503,
+      "maxSide": 0.009825527667999268,
+      "restRms": 5.1776604652404785,
+      "final": {
+        "time": 10.0,
+        "large": 5.791744709014893,
+        "small": 4.67880916595459,
+        "largeCom": 5.916250228881836,
+        "smallCom": 4.709329605102539,
+        "largeMassFraction": 0.3198387324810028,
+        "bedHeight": 13.681652069091797,
+        "aboveQuarter": 0.6571428775787354,
+        "aboveHalf": 0.3571428656578064,
+        "aboveThreeQuarters": 0.20000000298023224
+      }
+    }
+  ],
+  "model": "Supported packing with per-contact managed friction callbacks, before native-material optimization"
+}

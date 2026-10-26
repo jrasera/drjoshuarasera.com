@@ -1,0 +1,14 @@
+
+# Unity generated caches and local verification output
+unity/BNE3D/Library/
+unity/BNE3D/Temp/
+unity/BNE3D/Obj/
+unity/BNE3D/Logs/
+unity/BNE3D/UserSettings/
+unity/BNE3D/Builds/
+
+# OS/editor and local scratch files
+.DS_Store
+**/.DS_Store
+*.log
+*.tmp

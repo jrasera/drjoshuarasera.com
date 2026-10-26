@@ -1,0 +1,5 @@
+# Preserve Unity serializer and upstream licence formatting.
+unity/BNE3D/**/*.meta -whitespace
+unity/BNE3D/**/*.asset -whitespace
+unity/BNE3D/**/*.unity -whitespace
+assets/fonts/*-OFL.txt -whitespace

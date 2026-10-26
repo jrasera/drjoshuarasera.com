@@ -1,0 +1,50 @@
+.bne-workbench{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(310px,1fr)}
+.bne-workbench canvas{height:500px;width:100%;display:block}
+.bne-sidebar{padding:24px;border-left:1px solid #557583;background:#18313e}
+.bne-sidebar label{display:block;font-size:15px;margin-bottom:18px;color:#d5e6ec}
+.bne-sidebar output{float:right;color:#bbe2eb}
+.bne-sidebar input[type=range]{display:block;width:100%;margin-top:12px;accent-color:#a9d4df}
+.bne-sidebar select{display:block;width:100%;padding:9px;margin-top:8px;background:#102530;color:#e5f0f3;border:1px solid #708f9c;font:inherit}
+.bne-sidebar summary{font-size:15px;cursor:pointer;margin:18px 0}
+.bne-sidebar details label{margin-top:18px}
+.bne-sidebar .bne-motion-summary{font-size:14px;line-height:1.6}
+.bne-toolbar{display:flex;flex-wrap:wrap;gap:10px;padding:18px 22px;border-top:1px solid #557583}
+.bne-toolbar button,.bne-dialog button{padding:12px 16px;background:#aed3de;color:#122a36;border:1px solid #aed3de;font:inherit;cursor:pointer}
+.bne-toolbar button:disabled{opacity:.45;cursor:default}
+.bne-live{padding:0 22px 18px;color:#c6dde5;font-size:15px}
+.bne-dialog{width:min(900px,94vw);max-width:94vw;max-height:90dvh;box-sizing:border-box;padding:26px;background:#17303d;border:1px solid #8eb5c4;color:#e4f0f4}
+.bne-dialog::backdrop{background:#06121bd9}
+.bne-dialog header{position:static;display:flex;justify-content:space-between;align-items:center;background:none;padding:0;border:0;gap:20px}
+.bne-dialog h2{font-size:28px;margin:0}
+.bne-result-metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:24px 0}
+.bne-result-metrics span{display:block;font-size:14px;color:#bfd7e1}
+.bne-result-metrics strong{display:block;font-size:27px;color:#e6ad84;margin-top:8px}
+.bne-dialog p{font-size:16px;line-height:1.65}
+#bne-chart svg{display:block;width:100%}
+.bne-model{margin-top:24px;font-size:16px}
+.bne-model summary{cursor:pointer}
+.bne-model p{max-width:960px;line-height:1.8}
+@media(max-width:900px){.bne-workbench{grid-template-columns:1fr}.bne-sidebar{border-left:0;border-top:1px solid #557583;display:grid;grid-template-columns:1fr 1fr;gap:0 20px}.bne-sidebar details,.bne-sidebar>p{grid-column:1/-1}.bne-workbench canvas{height:480px}}
+@media(max-width:500px){.bne-sidebar{display:block;padding:18px}.bne-toolbar{padding:14px}.bne-toolbar button{font-size:14px}.bne-dialog{padding:18px}.bne-result-metrics{gap:12px}.bne-result-metrics strong{font-size:22px}}
+
+#bne-open-setup{width:100%;margin:0 0 20px;padding:12px;border:1px solid #8db5c4;background:#294b5b;color:#edf5f5;font:inherit;cursor:pointer}
+.bne-sample-summary{font-size:14px;line-height:1.6;color:#c5dce6}
+.bne-setup-grid,.bne-size-inputs{display:grid;grid-template-columns:1fr 1fr;gap:16px 24px;margin:24px 0}
+.bne-setup label{display:block;font-size:15px}
+.bne-setup output{float:right;color:#bde0e8}
+.bne-setup input{display:block;width:100%;box-sizing:border-box;margin-top:10px;accent-color:#acd3df}
+.bne-setup input[type=number]{padding:10px;background:#0d2430;color:#e4eff3;border:1px solid #7095a4;font:inherit}
+.bne-size-inputs>p,.bne-size-inputs>button{grid-column:1/-1}
+.bne-size-inputs[hidden],#bne-contrast-control[hidden]{display:none}
+@media(max-width:500px){.bne-setup-grid,.bne-size-inputs{grid-template-columns:1fr}.bne-size-inputs>p,.bne-size-inputs>button{grid-column:auto}}
+
+.bne-setup select{display:block;width:100%;box-sizing:border-box;padding:10px;background:#102530;color:#e6f0f3;font:inherit;border:1px solid #7095a4;margin:10px 0 20px}
+
+.bne-view-controls{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;padding:0 22px 18px;color:#c6dde5;font-size:14px}
+.bne-view-controls>div,.bne-view-controls>p{grid-column:1/-1;margin:0}
+.bne-view-controls button{padding:8px 12px;background:#294b5b;color:#edf5f5;border:1px solid #8db5c4;font:inherit;cursor:pointer}
+.bne-view-controls output{float:right}.bne-view-controls input{display:block;width:100%;margin-top:8px;accent-color:#acd3df}
+#bne-play{min-width:165px;touch-action:manipulation}
+
+#bne-hertz-settings[hidden],#bne-restitution-control[hidden]{display:none}
+#bne-hertz-settings>p{grid-column:1/-1;margin:0}

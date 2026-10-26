@@ -1,0 +1,80 @@
+{
+  "runs": [
+    {
+      "name": "driven-0",
+      "frequency": 15.0,
+      "amplitude": 1.5,
+      "initialLarge": 1.4999998807907104,
+      "initialSmall": 3.345726251602173,
+      "initialBed": 7.124505996704102,
+      "finalLarge": 2.7563371658325195,
+      "finalSmall": 2.9612951278686523,
+      "finalBed": 6.696103096008301,
+      "rise": 1.256337285041809,
+      "relativeRise": 1.6407684087753296,
+      "maxFloorCommandError": 0.0,
+      "wallSeconds": 4.126653
+    },
+    {
+      "name": "driven-1",
+      "frequency": 20.0,
+      "amplitude": 1.5,
+      "initialLarge": 1.5,
+      "initialSmall": 3.393866539001465,
+      "initialBed": 7.370043754577637,
+      "finalLarge": 6.524320602416992,
+      "finalSmall": 2.9199299812316895,
+      "finalBed": 8.024320602416992,
+      "rise": 5.024320602416992,
+      "relativeRise": 5.498257160186768,
+      "maxFloorCommandError": 0.0,
+      "wallSeconds": 5.0368154
+    },
+    {
+      "name": "driven-2",
+      "frequency": 25.0,
+      "amplitude": 1.0,
+      "initialLarge": 1.4999998807907104,
+      "initialSmall": 3.4277892112731934,
+      "initialBed": 7.328365325927734,
+      "finalLarge": 6.1604437828063965,
+      "finalSmall": 2.911036491394043,
+      "finalBed": 7.6604437828063965,
+      "rise": 4.6604437828063965,
+      "relativeRise": 5.177196502685547,
+      "maxFloorCommandError": 0.0,
+      "wallSeconds": 5.8641838
+    },
+    {
+      "name": "driven-3",
+      "frequency": 35.0,
+      "amplitude": 0.6000000238418579,
+      "initialLarge": 1.5,
+      "initialSmall": 3.5196518898010254,
+      "initialBed": 7.4782185554504395,
+      "finalLarge": 5.27947998046875,
+      "finalSmall": 2.9362566471099854,
+      "finalBed": 6.77947998046875,
+      "rise": 3.77947998046875,
+      "relativeRise": 4.362874984741211,
+      "maxFloorCommandError": 0.0,
+      "wallSeconds": 8.2673158
+    },
+    {
+      "name": "unshaken",
+      "frequency": 25.0,
+      "amplitude": 0.0,
+      "initialLarge": 1.4999998807907104,
+      "initialSmall": 3.4643185138702393,
+      "initialBed": 7.452278137207031,
+      "finalLarge": 1.5,
+      "finalSmall": 3.448838233947754,
+      "finalBed": 7.413135051727295,
+      "rise": 1.1920928955078125e-07,
+      "relativeRise": 0.015480399131774902,
+      "maxFloorCommandError": 0.0,
+      "wallSeconds": 5.0999589
+    }
+  ],
+  "description": "Earlier regime scan before centring the initial intruder. Common translation of floor and grains preserved both CoMs; actual floor positions matched commanded displacement."
+}

@@ -1,0 +1,91 @@
+{
+  "runs": [
+    {
+      "seed": 87413,
+      "quality": 0,
+      "driven": true,
+      "initialLarge": 1.5,
+      "finalLarge": 6.052552700042725,
+      "rise": 4.552552700042725,
+      "relativeRise": 5.047797203063965,
+      "initialBed": 7.15745210647583,
+      "baseError": 0.0,
+      "rawRange": 3.0326223373413086,
+      "cycleRange": 0.0959010124206543,
+      "cycles": 60
+    },
+    {
+      "seed": 87540,
+      "quality": 0,
+      "driven": true,
+      "initialLarge": 1.5,
+      "finalLarge": 6.50918436050415,
+      "rise": 5.00918436050415,
+      "relativeRise": 5.463557243347168,
+      "initialBed": 7.228267669677734,
+      "baseError": 0.0,
+      "rawRange": 3.2763590812683105,
+      "cycleRange": 0.3784828186035156,
+      "cycles": 60
+    },
+    {
+      "seed": 87413,
+      "quality": 0,
+      "driven": false,
+      "initialLarge": 1.5,
+      "finalLarge": 1.500000238418579,
+      "rise": 2.384185791015625e-07,
+      "relativeRise": 0.050540924072265625,
+      "initialBed": 7.07769775390625,
+      "baseError": 0.0,
+      "rawRange": 8.225440979003906e-06,
+      "cycleRange": 0.0,
+      "cycles": 60
+    },
+    {
+      "seed": 87540,
+      "quality": 0,
+      "driven": false,
+      "initialLarge": 1.5,
+      "finalLarge": 1.5,
+      "rise": 0.0,
+      "relativeRise": 0.03384137153625488,
+      "initialBed": 7.241009712219238,
+      "baseError": 0.0,
+      "rawRange": 0.0,
+      "cycleRange": 0.0,
+      "cycles": 60
+    },
+    {
+      "seed": 87413,
+      "quality": 1,
+      "driven": true,
+      "initialLarge": 1.5000001192092896,
+      "finalLarge": 4.152099132537842,
+      "rise": 2.652099132537842,
+      "relativeRise": 3.1277170181274414,
+      "initialBed": 7.1040191650390625,
+      "baseError": 0.0,
+      "rawRange": 2.9468326568603516,
+      "cycleRange": 0.34459590911865234,
+      "cycles": 60
+    }
+  ],
+  "configuration": {
+    "smallCount": 400,
+    "largeCount": 1,
+    "smallDiameterMm": [
+      0.95,
+      1.05
+    ],
+    "intruderDiameterMm": 3,
+    "vialDiameterMm": 9,
+    "vialHeightMm": 60,
+    "frequencyHz": 20,
+    "peakAmplitudeMm": 1.5,
+    "shakingSeconds": 3,
+    "initialization": "centred buried intruder, supported bed, 0.12 s gravity relaxation"
+  },
+  "assessment": "Qualitative rise in both interactive seeds and the balanced run; unshaken controls remain at the floor. Rise magnitude varies with numerical settings. This is not quantitative validation or a pure timestep-convergence test: balanced also changes CCD and solver iterations.",
+  "validatedAgainstPaper": false
+}

@@ -1,0 +1,223 @@
+{
+  "validated": false,
+  "source": "https://doi.org/10.1016/j.actaastro.2025.11.073",
+  "contactReference": "https://docs.itascacg.com/pfc700/common/contactmodel/hertz/doc/manual/cmhertz.html",
+  "limitations": [
+    "Planar disks, not the published 3D spheres",
+    "20/250 counts and uniform bounds do not preserve 1B/2S mass composition or measured PSD",
+    "Damping ratios and wall friction are explicit assumptions",
+    "10 s here means shaking duration; confirm published timing against original script",
+    "Modulus below 63 GPa is a stiffness reduction, not paper glass"
+  ],
+  "targets": {
+    "7": {
+      "experimentalNumberSeparationMm": -0.4,
+      "experimentalLargeAbove": [
+        0.69,
+        0.44,
+        0.24
+      ],
+      "demLargeAbove": [
+        0.73,
+        0.44,
+        0.26
+      ]
+    },
+    "8": {
+      "experimentalNumberSeparationMm": 4.1,
+      "demNumberSeparationMm": 5.3,
+      "experimentalLargeAbove": [
+        0.77,
+        0.61,
+        0.39
+      ],
+      "demLargeAbove": [
+        0.89,
+        0.81,
+        0.49
+      ]
+    }
+  },
+  "runs": [
+    {
+      "condition": 7,
+      "seed": 87413,
+      "steps": 16959758,
+      "settleTime": 1.0000003000064352,
+      "options": {
+        "mode": "mixture",
+        "ratio": 3,
+        "smallCount": 250,
+        "largeCount": 20,
+        "frequency": 15,
+        "amplitude": 1,
+        "duration": 10,
+        "friction": 0.4663076581549986,
+        "wallFriction": 0.4663076581549986,
+        "cellWidth": 9,
+        "cellHeight": 100,
+        "restitution": 0.6,
+        "densityRatio": 1,
+        "gravity": 9.81,
+        "seed": 87413,
+        "stiffness": 6400,
+        "solver": "hertz",
+        "initialization": "random",
+        "smallMin": 0.5,
+        "smallMax": 0.75,
+        "largeMin": 1.7,
+        "largeMax": 2.1,
+        "youngModulus": 63000000,
+        "poisson": 0.16,
+        "normalDamping": 0,
+        "shearDamping": 0,
+        "drive": "harmonic",
+        "restDuration": 0.5,
+        "settleDuration": 1
+      },
+      "initial": {
+        "numberLarge": 0.009811343690445609,
+        "numberSmall": 0.009041613584010132,
+        "numberSeparation": 0.0007697301064354765,
+        "largeAbove": [
+          0.8,
+          0.5,
+          0.3
+        ],
+        "large": 0.009632983620635676,
+        "small": 0.008831437609540676,
+        "height": 0.019011912026715774,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0008015460110950001,
+        "gamma": 0.9054682936779225,
+        "kinetic": 2.735055235721636e-13
+      },
+      "endOfShaking": {
+        "numberLarge": 0.009820687269748479,
+        "numberSmall": 0.00899997382622303,
+        "numberSeparation": 0.000820713443525448,
+        "largeAbove": [
+          0.8,
+          0.5,
+          0.3
+        ],
+        "large": 0.009641786387603008,
+        "small": 0.008793516527525889,
+        "height": 0.019035135709345428,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0008482698600771194,
+        "gamma": 0.9054682936779225,
+        "kinetic": 5.7645227094556016e-09
+      },
+      "rested": {
+        "numberLarge": 0.009792604522093384,
+        "numberSmall": 0.008975553168370579,
+        "numberSeparation": 0.0008170513537228054,
+        "largeAbove": [
+          0.8,
+          0.5,
+          0.3
+        ],
+        "large": 0.009614380323878199,
+        "small": 0.008769460871882986,
+        "height": 0.018965855157946552,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0008449194519952134,
+        "gamma": 0.9054682936779225,
+        "kinetic": 2.0312688155487667e-13
+      },
+      "peakOverlapPerRadius": 0.015729368697512534
+    },
+    {
+      "condition": 8,
+      "seed": 87413,
+      "steps": 16877279,
+      "settleTime": 1.0000003000064352,
+      "options": {
+        "mode": "mixture",
+        "ratio": 3,
+        "smallCount": 250,
+        "largeCount": 20,
+        "frequency": 15,
+        "amplitude": 1.5,
+        "duration": 10,
+        "friction": 0.4663076581549986,
+        "wallFriction": 0.4663076581549986,
+        "cellWidth": 9,
+        "cellHeight": 100,
+        "restitution": 0.6,
+        "densityRatio": 1,
+        "gravity": 9.81,
+        "seed": 87413,
+        "stiffness": 6400,
+        "solver": "hertz",
+        "initialization": "random",
+        "smallMin": 0.5,
+        "smallMax": 0.75,
+        "largeMin": 1.7,
+        "largeMax": 2.1,
+        "youngModulus": 63000000,
+        "poisson": 0.16,
+        "normalDamping": 0,
+        "shearDamping": 0,
+        "drive": "harmonic",
+        "restDuration": 0.5,
+        "settleDuration": 1
+      },
+      "initial": {
+        "numberLarge": 0.009811343690445609,
+        "numberSmall": 0.009041613584010132,
+        "numberSeparation": 0.0007697301064354765,
+        "largeAbove": [
+          0.8,
+          0.5,
+          0.3
+        ],
+        "large": 0.009632983620635676,
+        "small": 0.008831437609540676,
+        "height": 0.019011912026715774,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0008015460110950001,
+        "gamma": 1.3582024405168838,
+        "kinetic": 2.735055235721636e-13
+      },
+      "endOfShaking": {
+        "numberLarge": 0.01035981605332208,
+        "numberSmall": 0.008676873994404475,
+        "numberSeparation": 0.001682942058917605,
+        "largeAbove": [
+          0.75,
+          0.3,
+          0
+        ],
+        "large": 0.01019001395316351,
+        "small": 0.008479676178649125,
+        "height": 0.02623885671655104,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0017103377745143842,
+        "gamma": 1.3582024405168838,
+        "kinetic": 2.0690676876963348e-06
+      },
+      "rested": {
+        "numberLarge": 0.010155296888547669,
+        "numberSmall": 0.008346312071807195,
+        "numberSeparation": 0.0018089848167404735,
+        "largeAbove": [
+          0.85,
+          0.6,
+          0.3
+        ],
+        "large": 0.009988517055426775,
+        "small": 0.008169051375782707,
+        "height": 0.018469414917568087,
+        "largeMassFraction": 0.431360532211012,
+        "separation": 0.0018194656796440677,
+        "gamma": 1.3582024405168838,
+        "kinetic": 1.9594428578811673e-10
+      },
+      "peakOverlapPerRadius": 0.08138684575276282
+    }
+  ],
+  "engineSha256": "7bd136e4d31706923e2dd518a6b94f07f24d37a0d35430221e6dd3c06b73b6dd",
+  "purpose": "Exploratory paired test; reduced stiffness; not a validation pass."
+}

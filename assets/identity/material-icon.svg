@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="170 25 400 290" width="80" height="58">
+<!-- Mineral specimen: deliberately flat facets, with open dark fissures. -->
+<path fill="#edf3e8" d="M340 43 241 150 307 138 328 102Z"/>
+<path fill="#e2e9e1" d="M340 43 402 78 480 201 372 151Z"/>
+<path fill="#a6cbd0" d="M241 150 307 138 285 272 230 240Z"/>
+<path fill="#dab38b" d="M307 138 328 102 372 151 412 301 354 230Z"/>
+<path fill="#bd8d62" d="M372 151 480 201 469 271 412 301Z"/>
+<path fill="#9fc4ca" d="M321 279 354 230 412 301Z"/>
+<path fill="#d8e5df" d="M179 254 204 237 231 245 219 267Z"/>
+<path fill="#d3aa7f" d="M204 237 231 245 255 274 219 267Z"/>
+<path fill="#91b8c1" d="M179 254 219 267 255 274 235 285 200 278Z"/>
+<path fill="#c8dedb" d="M486 278 503 261 522 256 514 279 500 288Z"/>
+<path fill="#ecebda" d="M522 256 530 267 529 289 508 298 514 279Z"/>
+<path fill="#bb916e" d="M500 288 514 279 508 298 490 296Z"/>
+</svg>
